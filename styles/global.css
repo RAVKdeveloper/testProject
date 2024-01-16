@@ -1,5 +1,12 @@
 @import './reset.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,400;1,700;1,900&display=swap');
+
+
+body{
+    display: flex;
+    
+}
 
 img{
     user-select: none;
@@ -7,10 +14,7 @@ img{
 
 
 :root{
-    --back-main: #ebedf0;
-    --noactive-color: #818c99;
-    --main-color: #000;
-    --color-accent: #2d81e0;
-    --color-white: #fff;
-    --back-white: #fff;
+    --back-main: #09090C;
+    --color-main: #fff;
+    --color-accent: rgb(106, 17, 203);
 }

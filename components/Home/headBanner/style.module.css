@@ -1,0 +1,68 @@
+.root{
+    height: 800px;
+    position: relative;
+}
+
+.backImg{
+    position: absolute;
+    max-width: 1250px;
+    max-height: 800px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.content{
+    position: absolute;
+    z-index: 10;
+    max-width: 886px;
+    max-height: 482px;
+    top: 294px;
+    right: 517px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+
+.text{
+    color: var(--color-main);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    align-self: stretch;
+    line-height: normal;
+    max-height: 102px;
+    width: 1000px;
+}
+
+.btnRow{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.seeBtn{
+    background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+    padding: 24px 32px;
+    border-radius: 16px;
+    width: 243px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color-main);
+    user-select: none;
+}
+
+.infoBtn{
+    padding: 24px 32px;
+    width: 243px;
+    border-radius: 16px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color-main);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%);
+    backdrop-filter: blur(10px);
+    user-select: none;
+}

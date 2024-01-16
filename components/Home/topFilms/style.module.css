@@ -1,0 +1,58 @@
+.root{
+    padding-top: 110px;
+    padding-bottom: 203px;
+}
+
+.titleRow{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 33px;
+}
+
+.title{
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--color-accent);
+}
+
+.subTitle{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-main);
+}
+
+.cardRow{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.card{
+    width: 559px;
+    height: 597px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.number{
+    font-size: 360px;
+    font-style: italic;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--color-accent);
+    font-family: 'Archivo', sans-serif;
+}
+
+.icon{
+    width: 398px;
+    height: 597px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

@@ -31,6 +31,8 @@ html, body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: #09090C;
+  overflow-x: hidden;
 }
 
 input, button, textarea {

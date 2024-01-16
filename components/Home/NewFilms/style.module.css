@@ -1,0 +1,37 @@
+.root{
+    padding-top: 71px;
+}
+
+.title{
+    padding-bottom: 24px;
+    color: var(--color-main);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cardRow{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.card{
+    height: 653px;
+    width: 398px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--color-main);
+}
+
+.icon{
+    height: 597px;
+    width: 398px;
+}

@@ -1,0 +1,66 @@
+.root{
+    padding-top: 24px;
+}
+
+.cardsRow{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    max-width: 544px;
+    max-height: 425px;
+}
+
+.image{
+    width: 544px;
+    height: 306px;
+}
+
+.seriesNumber{
+    margin-top: 40px;
+    color: var(--color-main);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.seriesTime{
+    margin-top: 12px;
+    color: #BABABA;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.infoColumn{
+    padding-top: 60px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-main);
+}
+
+.text{
+    padding-top: 24px;
+    color: var(--color-main);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+.rememberTextBody{
+    padding-top: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.rememberText{
+    color: #4B4B4B;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.3;
+}

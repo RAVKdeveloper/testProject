@@ -1,0 +1,21 @@
+.root{
+    padding-top: 60px;
+}
+
+.title{
+    color: var(--color-main);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cardRow{
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card{
+    width: 255px;
+    height: 382px;
+}
